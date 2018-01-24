@@ -1,0 +1,8 @@
+G:\Temp\C#\Randomizer\Randomizer\bin\Debug\Randomizer.exe
+G:\Temp\C#\Randomizer\Randomizer\bin\Debug\Randomizer.pdb
+G:\Temp\C#\Randomizer\Randomizer\obj\x86\Debug\Randomizer.Form1.resources
+G:\Temp\C#\Randomizer\Randomizer\obj\x86\Debug\Randomizer.Properties.Resources.resources
+G:\Temp\C#\Randomizer\Randomizer\obj\x86\Debug\Randomizer.csproj.GenerateResource.Cache
+G:\Temp\C#\Randomizer\Randomizer\obj\x86\Debug\Randomizer.exe
+G:\Temp\C#\Randomizer\Randomizer\obj\x86\Debug\Randomizer.pdb
+G:\Temp\C#\Randomizer\Randomizer\obj\x86\Debug\Randomizer.csprojResolveAssemblyReference.cache
