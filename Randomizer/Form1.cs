@@ -179,18 +179,40 @@ namespace Randomizer
         private void Form1_KeyUp(object sender, KeyEventArgs e)
         {
             if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "")
-            if (Convert.ToInt32(textBox2.Text)<Convert.ToInt32(textBox3.Text))
-           // if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "")
-                button1.Enabled = true;
-            else button1.Enabled = false;
+            {
 
+                if (Convert.ToInt32(textBox2.Text) < Convert.ToInt32(textBox3.Text))
+                    // if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "")
+                    button1.Enabled = true;
+                else button1.Enabled = false;
 
+           //     label3.Text=Convert.ToString((Convert.ToInt32(textBox1.Text))<=(Convert.ToInt32(textBox3.Text) - Convert.ToInt32(textBox2.Text)));
+
+                if ((Convert.ToInt32(textBox1.Text)) >= (Convert.ToInt32(textBox3.Text) - Convert.ToInt32(textBox2.Text))+2)
+                {
+                    button1.Enabled = false;
+                    button2.Enabled = false;
+                }
+
+                   
+
+            
+
+            }
 
             if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "")
             {
                 button1.Enabled = false;
                 button2.Enabled = false;
             }
+
+            //if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "")
+            //if ((Convert.ToInt32(textBox1.Text))<=(Convert.ToInt32(textBox3.Text) - Convert.ToInt32(textBox2.Text))) 
+            //{
+
+            //    button1.Enabled = false;
+            //    button2.Enabled = false;
+            //}
 
 
             if (richTextBox1.Text == "")
