@@ -64,9 +64,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(622, 152);
+            this.textBox1.Location = new System.Drawing.Point(47, 27);
+            this.textBox1.MaxLength = 9;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(76, 20);
+            this.textBox1.Size = new System.Drawing.Size(83, 20);
             this.textBox1.TabIndex = 0;
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
@@ -79,14 +80,16 @@
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(553, 269);
             this.richTextBox1.TabIndex = 3;
+            this.richTextBox1.TabStop = false;
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(622, 201);
+            this.textBox2.Location = new System.Drawing.Point(615, 201);
+            this.textBox2.MaxLength = 9;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(76, 20);
+            this.textBox2.Size = new System.Drawing.Size(83, 20);
             this.textBox2.TabIndex = 1;
             this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
@@ -104,9 +107,10 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(622, 240);
+            this.textBox3.Location = new System.Drawing.Point(615, 240);
+            this.textBox3.MaxLength = 9;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(76, 20);
+            this.textBox3.Size = new System.Drawing.Size(83, 20);
             this.textBox3.TabIndex = 2;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
@@ -176,10 +180,11 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Location = new System.Drawing.Point(568, 124);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(144, 168);
-            this.groupBox1.TabIndex = 15;
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
             // checkBox1
@@ -190,7 +195,8 @@
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.checkBox1.Size = new System.Drawing.Size(123, 20);
-            this.checkBox1.TabIndex = 0;
+            this.checkBox1.TabIndex = 1;
+            this.checkBox1.TabStop = false;
             this.checkBox1.Text = "مرتب سازی اعداد";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
@@ -201,7 +207,7 @@
             this.button4.Location = new System.Drawing.Point(12, 297);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(62, 43);
-            this.button4.TabIndex = 16;
+            this.button4.TabIndex = 6;
             this.button4.Text = "خروج";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -257,7 +263,6 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);

@@ -28,7 +28,7 @@ namespace Randomizer
             richTextBox1.Clear();
          
            // int j = 0;
-           for( int i=0 ; i<set1;i++)
+            for (int i = 0; i < set1; i++)
             {
               //  richTextBox1.Text +=  + bytes1[ctr] + ",";
               //if ((ctr + 1) % 10 == 0)  richTextBox1.Text +="\n";
