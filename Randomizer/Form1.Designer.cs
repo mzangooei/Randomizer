@@ -75,10 +75,10 @@
             // 
             this.richTextBox1.BackColor = System.Drawing.Color.White;
             this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(11, 23);
+            this.richTextBox1.Location = new System.Drawing.Point(11, 6);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(553, 269);
+            this.richTextBox1.Size = new System.Drawing.Size(553, 286);
             this.richTextBox1.TabIndex = 3;
             this.richTextBox1.TabStop = false;
             this.richTextBox1.Text = "";
@@ -241,11 +241,12 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label3.Location = new System.Drawing.Point(299, 3);
+            this.label3.Location = new System.Drawing.Point(213, 323);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(268, 16);
             this.label3.TabIndex = 17;
             this.label3.Text = "اداره فناوری اطلاعات بیمه سلامت استان بوشهر";
+            this.label3.Visible = false;
             // 
             // Form1
             // 
