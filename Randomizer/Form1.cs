@@ -128,36 +128,44 @@ namespace Randomizer
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
-        !(e.KeyChar != '.'))
-            {
+        //    if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+        //(e.KeyChar != '.'))
+        //    {
+               
+        //        e.Handled = true;
 
-                e.Handled = true;
+        //    }
 
-            }
-
-        
+            int isNumber = 0;
+            e.Handled = !int.TryParse(e.KeyChar.ToString(), out isNumber);
+         
         }
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
-        !(e.KeyChar != '.'))
-            {
-                e.Handled = true;
-            }
+        //    if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+        //(e.KeyChar != '.'))
+        //    {
 
+               
+        //        e.Handled = true;
+        //    }
+            int isNumber = 0;
+            e.Handled = !int.TryParse(e.KeyChar.ToString(), out isNumber);
+         
           
         }
 
         private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
-        !(e.KeyChar != '.'))
-            {
-                e.Handled = true;
-            }
+        //    if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+        //(e.KeyChar != '.'))
+        //    {
 
+        //        e.Handled = true;
+        //    }
+            int isNumber = 0;
+            e.Handled = !int.TryParse(e.KeyChar.ToString(), out isNumber);
          
         }
 

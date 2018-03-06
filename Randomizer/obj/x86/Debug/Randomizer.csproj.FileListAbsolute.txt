@@ -5,3 +5,4 @@ G:\Temp\C#\Randomizer\Randomizer\obj\x86\Debug\Randomizer.Properties.Resources.r
 G:\Temp\C#\Randomizer\Randomizer\obj\x86\Debug\Randomizer.csproj.GenerateResource.Cache
 G:\Temp\C#\Randomizer\Randomizer\obj\x86\Debug\Randomizer.exe
 G:\Temp\C#\Randomizer\Randomizer\obj\x86\Debug\Randomizer.pdb
+G:\Temp\C#\Randomizer\Randomizer\obj\x86\Debug\Randomizer.csprojResolveAssemblyReference.cache
