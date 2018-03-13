@@ -136,9 +136,9 @@ namespace Randomizer
 
         //    }
 
-            int isNumber = 0;
-            e.Handled = !int.TryParse(e.KeyChar.ToString(), out isNumber);
-         
+            //int isNumber = 0;
+            //e.Handled = !int.TryParse(e.KeyChar.ToString(), out isNumber);
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
         }
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
@@ -150,10 +150,10 @@ namespace Randomizer
                
         //        e.Handled = true;
         //    }
-            int isNumber = 0;
-            e.Handled = !int.TryParse(e.KeyChar.ToString(), out isNumber);
-         
-          
+            //int isNumber = 0;
+            //e.Handled = !int.TryParse(e.KeyChar.ToString(), out isNumber);
+
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
         }
 
         private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
@@ -164,8 +164,9 @@ namespace Randomizer
 
         //        e.Handled = true;
         //    }
-            int isNumber = 0;
-            e.Handled = !int.TryParse(e.KeyChar.ToString(), out isNumber);
+            //int isNumber = 0;
+            //e.Handled = !int.TryParse(e.KeyChar.ToString(), out isNumber);
+            e.Handled = !(Char.IsNumber(e.KeyChar) || e.KeyChar == 8);
          
         }
 
